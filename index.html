@@ -5,43 +5,75 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
   
   <title>Frontend Mentor | Results summary component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <main>
+    <article class="result">
+      <h1>Your Result</h1>
 
-  Your Result
-  76
-  of 100
+      <div class="circle">
+        <p class="average">76</p>
+        <span class="ratio">of 100</span>
+      </div>
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
+      <p class="appreciation">Great</p>
+      <p class="description">
+        You scored higher than 65% of the people who have taken these tests.
+      </p>
+    </article>
+
+    <article class="summary">
+      <h2>Summary</h2>
+      <!-- Category Reaction -->
+      <section class="category reaction">
+        <div class="category_legend">
+          <img src="./assets/images/icon-reaction.svg" alt="icon reation" class="icon">
+          <span>Reaction</span>
+        </div>
+        <div class="category_score">
+          <span class="score">80</span> / 100
+        </div>
+      </section>
+
+      <!-- Category Memory -->
+      <section class="category memory">
+        <div class="category_legend">
+          <img src="./assets/images/icon-memory.svg" alt="icon memory" class="Memory">
+          <span>Reaction</span>
+        </div>
+        <div class="category_score">
+          <span class="score">92</span> / 100
+        </div>
+      </section>
+
+      <!-- Category verbal -->
+      <section class="category verbal">
+        <div class="category_legend">
+          <img src="./assets/images/icon-verbal.svg" alt="icon verbal" class="icon">
+          <span>Verbal</span>
+        </div>
+        <div class="category_score">
+          <span class="score">61</span> / 100
+        </div>
+      </section>
+
+      <!-- Category visual -->
+      <section class="category visual">
+        <div class="category_legend">
+          <img src="./assets/images/icon-visual.svg" alt="icon visual" class="icon">
+          <span>Visual</span>
+        </div>
+        <div class="category_score">
+          <span class="score">72</span> / 100
+        </div>
+      </section>
+      <button class="cta">Continue</button>
+    </article>
+  </main>
   
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
 </html>
