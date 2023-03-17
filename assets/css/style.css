@@ -85,4 +85,87 @@ body {
 .result .description {
     font-size: .95rem;
     margin-bottom: 1.3rem;
+    color: var(--dark-gray-blue);
+    font-size: 18px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   SUMMARY                                  */
+/* -------------------------------------------------------------------------- */
+.summary {
+    padding: 1.6rem;
+}
+
+.summary h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1.7rem;
+}
+
+.category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1.1rem;
+}
+
+
+
+.category .score {
+    font-weight: bold;
+}
+
+.category_legend {
+    display: flex;
+    align-items: center;
+}
+
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.07);
+}
+
+.reaction .legend {
+    color: var(--light-red);
+    margin-left: .5rem;
+}
+.memory {
+    background-color: hsl(39, 100%, 56%, .07);
+}
+
+.memory .legend {
+    color: var(--orangey-yellow);
+    margin-left: .5rem;
+}
+.verbal {
+    background-color: hsla(166, 100%, 37%, 0.079);
+}
+
+.verbal .legend {
+    color: var(--green-teal);
+    margin-left: .5rem;
+}
+.visual {
+    background-color: hsla(234, 85%, 45%, 0.07);
+    margin-bottom: 2rem;
+}
+
+.visual .legend {
+    color: var(--cobalt-blue);
+    margin-left: .5rem;
+}
+
+button.cta {
+    width: 100%;
+    font-size: 1.1rem;
+    background-color: var(--dark-gray-blue);
+    outline: none;
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border-radius: 1.5rem;
+    color: var(--pale-blue);
+}
+
+button.cta:hover {
+    
 }
