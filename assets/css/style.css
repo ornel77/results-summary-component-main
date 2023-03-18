@@ -85,8 +85,6 @@ body {
 .result .description {
     font-size: .95rem;
     margin-bottom: 1.3rem;
-    color: var(--dark-gray-blue);
-    font-size: 18px;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -164,8 +162,9 @@ button.cta {
     cursor: pointer;
     border-radius: 1.5rem;
     color: var(--pale-blue);
+    transition: transform 230ms ease-in-out;;
 }
 
 button.cta:hover {
-    
+    background: linear-gradient(180deg, rgba(120,87,255,1) 0%, rgba(46,43,233,1) 100%);
 }
