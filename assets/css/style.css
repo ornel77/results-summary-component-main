@@ -30,6 +30,7 @@
 body {
     font-family: 'Hanken Grotesk', sans-serif;
      color: var(--dark-gray-blue);
+    
 }
 
 /* -------------------------------------------------------------------------- */
@@ -162,7 +163,7 @@ button.cta {
     cursor: pointer;
     border-radius: 1.5rem;
     color: var(--pale-blue);
-    transition: transform 230ms ease-in-out;;
+    /* transition: all 600ms ease-in; */
 }
 
 button.cta:hover {
